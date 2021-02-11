@@ -1,10 +1,15 @@
 
-import Product from './components/Product';
-import data from './data';
+import { BrowserRouter, Route } from 'react-router-dom';
+import HomeScreen from './screens/HomeScreen';
+import ProductScreen from './screens/ProductScreen';
+
+
 
 function App() {
   return (
-    <div className="grid-container">
+  
+    <BrowserRouter>
+      <div className="grid-container">
         <header className="row">
             <div>
                 <a className="brand" href="/">Entwine Mart</a>
@@ -15,16 +20,16 @@ function App() {
             </div>
         </header>
         <main>
-            <div className="row center">
-              {data.products.map((product) =>( 
-            <Product key={product._id} product={product}></Product>                    
-              ))}
-            </div>
+          <Route path="/" component={HomeScreen} exact></Route>
+          <Route path="/product/:id" component={ProductScreen}></Route>
+                   
         </main>
         <footer className="row center">
             Allright Reserved
         </footer>
     </div>
+  </BrowserRouter>
+  
   );
 }
 
