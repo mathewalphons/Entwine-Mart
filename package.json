@@ -1,0 +1,23 @@
+{
+  "name": "entwinemart",
+  "type":"module",
+  "version": "1.0.0",
+  "description": "Entwine Mart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathewalphons/Entwine-Mart.git"
+  },
+  "author": "Entwine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathewalphons/Entwine-Mart/issues"
+  },
+  "homepage": "https://github.com/mathewalphons/Entwine-Mart#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
