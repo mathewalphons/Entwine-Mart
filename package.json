@@ -1,6 +1,6 @@
 {
   "name": "entwinemart",
-  "type":"module",
+  "type": "module",
   "version": "1.0.0",
   "description": "Entwine Mart",
   "main": "index.js",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/mathewalphons/Entwine-Mart#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0"
   }
 }
