@@ -36,7 +36,7 @@ export default function ProductScreen(props) {
             <div className="col-1">
               <ul>
                 <li>
-                  <h1git checkout >{product.name}</h1>
+                  <h1>{product.name}</h1>
                 </li>
                 <li>
                   <Rating
